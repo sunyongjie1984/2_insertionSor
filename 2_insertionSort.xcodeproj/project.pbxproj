@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		137B1F842820E59F0017828B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 137B1F832820E59F0017828B /* main.cpp */; };
+		137B1F8C2820E5E40017828B /* insertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 137B1F8A2820E5E40017828B /* insertionSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		137B1F802820E59F0017828B /* 2_insertionSor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2_insertionSor; sourceTree = BUILT_PRODUCTS_DIR; };
-		137B1F832820E59F0017828B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		137B1F8A2820E5E40017828B /* insertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = insertionSort.cpp; sourceTree = "<group>"; };
+		137B1F8B2820E5E40017828B /* insertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insertionSort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,7 @@
 		137B1F772820E59F0017828B = {
 			isa = PBXGroup;
 			children = (
-				137B1F822820E59F0017828B /* 2_insertionSor */,
+				137B1F822820E59F0017828B /* 2_insertionSort */,
 				137B1F812820E59F0017828B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +55,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		137B1F822820E59F0017828B /* 2_insertionSor */ = {
+		137B1F822820E59F0017828B /* 2_insertionSort */ = {
 			isa = PBXGroup;
 			children = (
-				137B1F832820E59F0017828B /* main.cpp */,
+				137B1F8A2820E5E40017828B /* insertionSort.cpp */,
+				137B1F8B2820E5E40017828B /* insertionSort.h */,
 			);
-			path = 2_insertionSor;
+			path = 2_insertionSort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 137B1F7B2820E59F0017828B /* Build configuration list for PBXProject "2_insertionSor" */;
+			buildConfigurationList = 137B1F7B2820E59F0017828B /* Build configuration list for PBXProject "2_insertionSort" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				137B1F842820E59F0017828B /* main.cpp in Sources */,
+				137B1F8C2820E5E40017828B /* insertionSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		137B1F7B2820E59F0017828B /* Build configuration list for PBXProject "2_insertionSor" */ = {
+		137B1F7B2820E59F0017828B /* Build configuration list for PBXProject "2_insertionSort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				137B1F852820E59F0017828B /* Debug */,
